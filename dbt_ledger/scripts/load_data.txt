@@ -1,0 +1,15 @@
+copy test2 from 'C:\playground\ekonomi\data\test2.csv' delimiter ';' csv header;
+
+copy raw_nordea from 'C:\playground\ekonomi\data\nordea.csv' delimiter ';' csv header;
+
+copy raw_skandia(Bokfdatum, Beskrivning, Belopp, Saldo) from 'C:\playground\ekonomi\data\91508831221_2022-06-21-2022-09-21.csv' delimiter ';' csv header;
+
+
+
+truncate table raw_skandia;
+select * from raw_skandia;
+copy raw_skandia(Bokfdatum, Beskrivning, Belopp, Saldo) from 'C:\playground\ekonomi\data\csv\91508831221_2022-09-29-2022-12-29.csv' delimiter ';' csv header;
+
+
+copy raw_nordea
+from 'C:\playground\ekonomi\data\csv\PERSONKONTO 3030 03 65756 - 2022-12-29 17.55.18.csv'  delimiter ';' csv header;

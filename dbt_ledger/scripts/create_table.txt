@@ -1,0 +1,8 @@
+create table test2 (Bokfdatum varchar(40), Beskrivning varchar(255), Belopp varchar(40), Saldo varchar(40));
+
+create table stg_ledger(Bokfdatum varchar(40), Beskrivning varchar(255), Belopp varchar(40), Saldo varchar(40));
+
+create table raw_skandia(id serial,created_at timestamp without time zone primary key
+    default clock_timestamp(), Bokfdatum varchar(40), Beskrivning varchar(255), Belopp varchar(40), Saldo varchar(40));
+create table raw_nordea(id serial,created_at timestamp without time zone primary key
+    default clock_timestamp(),Bokfdatum varchar(40), Belopp varchar(40), Avsändare varchar(40),Mottagare varchar(40),Namn varchar(40),Beskrivning varchar(255),  Saldo varchar(40), Valuta varchar(6));

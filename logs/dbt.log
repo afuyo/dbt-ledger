@@ -1,0 +1,51 @@
+
+
+============================== 2022-09-10 19:06:40.222094 | 8608df0e-d678-48e7-b3ec-a6d5ff286dfc ==============================
+19:06:40.222094 [info ] [MainThread]: Running with dbt=1.1.0
+19:06:40.225693 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\artur\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+19:06:40.226693 [debug] [MainThread]: Tracking: tracking
+19:06:40.280706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC169CBD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC169CB370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC169CBBE0>]}
+19:07:12.594711 [debug] [MainThread]: Starter project path: C:\Users\artur\anaconda3\envs\dbt-core39\lib\site-packages\dbt\include\starter_project
+19:07:22.122747 [info ] [MainThread]: 
+Your new dbt project "dbt_ledger" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+19:07:22.126431 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC16A45C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC169D8F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EC169D8FD0>]}
+
+
+============================== 2022-09-11 06:02:31.693732 | e1daaab3-2da6-4dce-bedd-c776b4daf89d ==============================
+[0m06:02:31.693732 [info ] [MainThread]: Running with dbt=1.2.1
+[0m06:02:31.701626 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\artur\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbt_ledger', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m06:02:31.702627 [debug] [MainThread]: Tracking: tracking
+[0m06:02:31.749617 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019730DFA520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019730DFA460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019730DFA310>]}
+[0m06:02:31.750618 [debug] [MainThread]: Starter project path: C:\Users\artur\anaconda3\envs\dbt-core39\lib\site-packages\dbt\include\starter_project
+[0m06:02:43.553847 [info ] [MainThread]: 
+Your new dbt project "dbt_ledger" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m06:02:43.562480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019730D9A3A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019730D85F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019730DFA9D0>]}
+[0m06:02:43.563479 [debug] [MainThread]: Flushing usage events
